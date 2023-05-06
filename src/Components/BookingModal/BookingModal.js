@@ -26,7 +26,7 @@ const BookingModal = ({booking}) => {
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <img src={booking.show.image?.original} width={100} alt="" />
+                            <img src={booking?.show.image?.original} width={100} alt="" />
                              <h5 class="card-title">{booking?.show.name}</h5>
                             <p class="card-text">language :{booking?.show.language}</p>
                             <p class="card-text">schedule/days :{booking?.show.schedule.days[0]}</p>
